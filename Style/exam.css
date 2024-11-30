@@ -1,0 +1,60 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #001f3f;
+}
+
+/* Styling for each question */
+.question-container {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    border: 1px solid #e0e0e0;
+}
+
+.question-container.highlight {
+    border: 2px solid red;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #001f3f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+/* Image styling inside questions */
+img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
